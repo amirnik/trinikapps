@@ -6,11 +6,11 @@
 }
 
 body {
-    color: #333;
+    color: #fff; /* Change default text color to white */
     line-height: 1.6;
     overflow: auto; /* Show scroll bars */
     position: relative;
-    background: #53118f; /* Background color */
+    background: #53118f; /* Cyan background color */
 }
 
 .background {
@@ -94,6 +94,11 @@ header h1 {
 
 main {
     padding: 2rem 0;
+}
+
+.text-block {
+    white-space: pre-wrap; /* Preserve whitespace and new lines */
+    color: #fff; /* Ensure text is white */
 }
 
 .video-section, .links-section {
